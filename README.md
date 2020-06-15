@@ -10,24 +10,26 @@ Uma empresa deseja realizar um monitoramento de outros grupos empresariais em um
 4. Sinta-se à vontade para adicionar mais features e criar uma UI maneira!
 
 # Executando a aplicação
-### Observação: Como o banco de dados já está criado dentro do repositório do 
-server "database/database.sqlite", siga as instruções a baixo:
 
 ## Iniciando o servidor
-1. Entre dentro da pasta Server pelo terminal;
-2. Execute o comando: 
-> npm run dev
-## Iniciando o frontend
-1. Entre dentro da pasta web pelo terminal;
-2. Execute o comando: 
-> yarn start
 
-## Caso queira ver o processo desde o início,apague o arquivo dentro da pasta server: "database/database.sqlite" e em seguida, abra o terminal na raiz do server e execute: 
+ Abra o terminal na raiz do server e execute: 
+
+> npm install
+
+### Em seguida:
 
 1. npm run knex:migrate
 2. npm run knex:seed
 3. npm run dev
 
-## Em seguida, entre na pasta raiz da web e inicie o servidor:
+## Iniciando o front
+  Entre na pasta raiz da web e inicie o servidor:
+  
+> npm install
+
+### Por fim:
 > yarn start
 
+
+# Aplicação está pronta.
