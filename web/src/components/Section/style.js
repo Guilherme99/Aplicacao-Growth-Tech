@@ -48,6 +48,14 @@ export const Content = styled.div`
         }
 
     }
+
+    @media (max-width:550px){
+        padding: 0;
+        text-wrap:wrap;
+        .Users{
+            font-size:11px;
+        }
+    }
 `;
 
 export const Button = styled.button`
@@ -66,6 +74,11 @@ export const Button = styled.button`
     a{
         text-decoration:none;
         color:#fff;
+    }
+
+    @media (max-width:550px){
+        padding: 2px 5px;
+        right: 2px;
     }
 `;
 
@@ -105,31 +118,22 @@ export const Pesquisa = styled.div`
             border-radius: 0 5px 5px 0px;
         }
     }
-    select{
-        padding: 8px 15px;
-        border: 1px solid #cecece;
-        margin-left: 20px;
-        margin-right:20px;
-        border-radius:5px;
-        font-family: 'Courier New', Courier, monospace;
-
-        option{
-            padding: 8px 15px;    
-            border: 1px solid #cecece;        
-        }
-    }
-
     
-@media (min-width:750px){
-    .inputpesquisa{
-        width:15%;
-        margin-right: 5%;
 
-        input{
-            width:90%;
-        }
-        margin-right:10px;
+    @media (max-width:550px){
+        padding-right:10%;
     }
-}
+
+    @media (min-width:750px){
+        .inputpesquisa{
+            width:15%;
+            margin-right: 5%;
+
+            input{
+                width:90%;
+            }
+            margin-right:10px;
+        }
+    }
 `;
 
