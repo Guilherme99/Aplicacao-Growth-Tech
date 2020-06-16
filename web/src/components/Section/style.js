@@ -121,7 +121,15 @@ export const Pesquisa = styled.div`
     
 
     @media (max-width:550px){
-        padding-right:10%;
+        .inputpesquisa{
+            width:50%;
+            margin-right: 10%;
+
+            input{
+                width:100%;
+                font-size:10px;
+            }
+        }
     }
 
     @media (min-width:750px){

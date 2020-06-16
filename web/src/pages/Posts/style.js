@@ -143,20 +143,17 @@ export const Pesquisa = styled.div`
             border-radius: 0 5px 5px 0px;
         }
     }
-    select{
-        padding: 8px 15px;
-        border: 1px solid #cecece;
-        margin-left: 20px;
-        margin-right:20px;
-        border-radius:5px;
-        font-family: 'Courier New', Courier, monospace;
+@media (max-width:550px){
+        .inputpesquisa{
+            width:50%;
+            margin-right: 10%;
 
-        option{
-            padding: 8px 15px;    
-            border: 1px solid #cecece;        
+            input{
+                width:100%;
+                font-size:10px;
+            }
         }
     }
-
     
 @media (min-width:750px){
     .inputpesquisa{
