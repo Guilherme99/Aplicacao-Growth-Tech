@@ -13,7 +13,7 @@ const Home = () => {
         
         (async () => {        
             setLoad(true);
-            const response = await axios.get('http://localhost:3333/dataUsers');
+            const response = await axios.get('http://192.168.0.105:3333/dataUsers');
             setUsers(response.data);
             setLoad(false);
         })();

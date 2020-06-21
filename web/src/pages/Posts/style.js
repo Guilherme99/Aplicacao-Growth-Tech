@@ -168,3 +168,17 @@ export const Pesquisa = styled.div`
 }
 `;
 
+export const PaginationPosts = styled.div` 
+    width:80%;
+    margin:auto;
+    list-style:none;
+    z-index: 9;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+`;
